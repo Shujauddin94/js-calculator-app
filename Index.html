@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="heading">SHUJA's Calculator</h1>
+    <div class="Calculator">
+        <input type="text" class="display" id="screen">
+            <p class="bottom"></p>
+        
+        <div class="buttons">
+        <button id="seven" onclick="handleinput(this)">7</button>
+                <button onclick="handleinput(this)">8</button>
+                <button onclick="handleinput(this)">9</button>
+                <button onclick="handleinput(this)">/</button>
+                <button onclick="handleinput(this)">4</button>
+                <button onclick="handleinput(this)">5</button>
+                <button onclick="handleinput(this)">6</button>
+                <button onclick="handleinput(this)">x</button>
+                <button onclick="handleinput(this)">1</button>
+                <button onclick="handleinput(this)">2</button>
+                <button onclick="handleinput(this)">3</button>
+                <button onclick="handleinput(this)">+</button>
+                <button onclick="handleinput(this)">.</button>
+                <button onclick="handleinput(this)">0</button>
+                <button onclick="equals()">=</button>
+                <button onclick="handleinput(this)">-</button>
+        </div>
+    </div>  
+</div>
+<script src="calculator.js"></script>
+</body>
+</html>
