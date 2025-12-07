@@ -1,4 +1,4 @@
-📟 SHUJA's Calculator
+## 📟 SHUJA's Calculator
 
 A simple, clean, and responsive web-based calculator built using HTML, CSS, and JavaScript.
 It supports basic arithmetic operations like addition, subtraction, multiplication, and division with a smooth UI.
@@ -17,7 +17,7 @@ It supports basic arithmetic operations like addition, subtraction, multiplicati
 
 ✔ Clean, readable code (HTML/CSS/JS)
 
-🧩 Technologies Used
+## 🧩 Technologies Used
 
 HTML5 — structure
 
@@ -34,13 +34,8 @@ JavaScript (Vanilla JS) — calculator logic
 │── calculator.js
 └── README.md
 ```
-🖼 Preview
 
-(You can add a screenshot here later)
-
-SHUJA's Calculator UI
-
-🧠 JavaScript Logic (Overview)
+## 🧠 JavaScript Logic (Overview)
 
 handleinput()
 Adds button values to the display.
@@ -50,7 +45,7 @@ Replaces "x" with "*" and evaluates the expression safely.
 
 Error handling ensures the app won't break on invalid input.
 
-📥 How to Use
+## 📥 How to Use
 
 Download or clone this repository:
 
@@ -61,7 +56,7 @@ Open index.html in any browser.
 
 Start calculating!
 
-🔧 Future Improvements (optional)
+## 🔧 Future Improvements (optional)
 
 Add keyboard support
 
@@ -73,10 +68,10 @@ Add backspace button
 
 Improve UI animations
 
-🤝 Contributing
+## 🤝 Contributing
 
 Feel free to open issues or submit pull requests to improve the project.
 
-📜 License
+## 📜 License
 
 This project is open-source and free to use.
