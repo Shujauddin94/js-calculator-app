@@ -26,7 +26,7 @@ CSS3 — layout + styling
 JavaScript (Vanilla JS) — calculator logic
 
 📁 Project Structure
- /project-folder
+/project-folder
  │── index.html
  │── calculator.css
  │── calculator.js
