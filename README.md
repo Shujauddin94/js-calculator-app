@@ -25,13 +25,15 @@ CSS3 — layout + styling
 
 JavaScript (Vanilla JS) — calculator logic
 
-📁 Project Structure
-/project-folder
- │── index.html
- │── calculator.css
- │── calculator.js
- └── README.md
+## 📁 Project Structure
 
+```
+/project-folder
+│── index.html
+│── calculator.css
+│── calculator.js
+└── README.md
+```
 🖼 Preview
 
 (You can add a screenshot here later)
