@@ -57,19 +57,53 @@
 //         function subtract() {
 //             document.getElementById("screen").value += '-';
 //         }
-        function equals() {
-         let ans =   document.getElementById("screen").value
-         ans = ans.replace('x','*')
+    //     function equals() {
+    //      let ans =   document.getElementById("screen").value
+    //      ans = ans.replace('x','*')
 
-         document.getElementById("screen").value = eval(ans)
+    //      document.getElementById("screen").value = eval(ans)
 
-        }
-    function handleinput(e) {
-        let input = e.innerHTML
-        console.log(input)
-        // if(input == 'x'){
-        //     input = '*'
-        // }
-        document.getElementById("screen").value += input ;
+    //     }
+    // function handleinput(e) {
+    //     let input = e.innerHTML
+    //     console.log(input)
+    //     // if(input == 'x'){
+    //     //     input = '*'
+    //     // }
+    //     document.getElementById("screen").value += input ;
  
+    // }
+    let screen = document.getElementById("screen");
+
+function handleInput(value) {
+    screen.value += value;
+}
+
+function clearScreen() {
+    screen.value = "";
+}
+
+function deleteLast() {
+    screen.value = screen.value.slice(0, -1);
+}
+
+function calculate() {
+    try {
+        screen.value = eval(screen.value);
+    } catch {
+        screen.value = "Error";
     }
+}
+
+/* Keyboard support */
+document.addEventListener("keydown", (e) => {
+    if ("0123456789+-*/.".includes(e.key)) {
+        handleInput(e.key);
+    } else if (e.key === "Enter") {
+        calculate();
+    } else if (e.key === "Backspace") {
+        deleteLast();
+    } else if (e.key === "Escape") {
+        clearScreen();
+    }
+});
